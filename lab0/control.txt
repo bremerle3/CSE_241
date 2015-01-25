@@ -5,13 +5,13 @@
 ### Uncomment exactly one of the following two lines to indicate your
 ### implementation language for the lab. (Default is Java.)
 
-#java
+java
 #c++
 
 ### Uncomment the following line to enable testing and feedback on
 ### your lab from the autograder.
 
-#test
+test
 
 ### Uncomment the following line to **prevent** automated turn-in of
 ### your lab.  By default, your lab will be snapshotted for turn-in on
