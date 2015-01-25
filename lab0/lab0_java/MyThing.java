@@ -7,11 +7,11 @@ public class MyThing {
         // 3...
 	// <etc>
 	// x!
-    	for(int i = 1; i < x; i++;){
+    	for(int i = 1; i < x; i++){
     		if(i % 2 == 1){
-    			System.out.println(i + '...');
+    			System.out.println(i + "...");
     		}
     	}
-    	System.out.println(%d + '!', x);
+    	System.out.println(x + "!");
     }
 }
