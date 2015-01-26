@@ -7,12 +7,19 @@ public class MyThing {
 		// <etc>
 		// x!
 		if (x > 0) {
-			for (int i = 1; i < x; i++) {
+			int last_out;
+			if (x % 2 == 1){
+				last_out = x;
+			}
+			else {
+				last_out = x-1;
+			}
+			for (int i = 1; i < last_out; i++) {
 				if (i % 2 == 1) {
 					System.out.println(i + "...");
 				}
 			}
-			if (x % 2 == 1) System.out.println(x + "!");
+			System.out.println(last_out + "!");
 		}
 	}
 }
